@@ -47,7 +47,7 @@ public class LoggingAspect {
 		System.out.println("The method "+methodName +" throw with "+ex);
 	}
 	
-	
+	/*
 	@Around("execution(public int com.wz.spring.aop.impl.ArithmeticCalculator.*(int, int))")
 	public Object around(ProceedingJoinPoint pjd) {
 		System.out.println("around");
@@ -67,6 +67,7 @@ public class LoggingAspect {
 		//后置通知
 		return result;
 	}
+	*/
 	
 	
 }
