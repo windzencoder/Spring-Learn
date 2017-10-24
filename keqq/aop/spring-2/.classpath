@@ -2,5 +2,14 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/aopalliance-.jar"/>
+	<classpathentry kind="lib" path="lib/aspectjweaver-1.6.10.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aspects-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-3.2.9.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
