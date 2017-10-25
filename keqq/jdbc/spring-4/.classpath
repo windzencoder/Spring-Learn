@@ -2,5 +2,22 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/aspectjweaver-1.6.10.jar"/>
+	<classpathentry kind="lib" path="lib/c3p0-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.38-bin.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aspects-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jdbc-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-orm-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-web-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-3.2.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/aopalliance-.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
