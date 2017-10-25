@@ -8,15 +8,23 @@ public class SpringTransactionTest {
 
 	private ApplicationContext ctx = null;
 	private BookShopDao bookShopDao;
+	private BookShopService bookShopService;
 
 	{
 		ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 		bookShopDao = ctx.getBean(BookShopDao.class);
+		bookShopService = ctx.getBean(BookShopService.class);
 	}
 	
 	@Test
+	public void testBookShopService(){
+		bookShopService.purchase("AA", "1001");
+	}
+	
+	
+	@Test
 	public void testUpdateUserAccount(){
-		bookShopDao.updateUserAccount("AA", 100);
+		bookShopDao.updateUserAccount("AA", 200);
 	}
 	
 	@Test
